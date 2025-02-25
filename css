@@ -1,0 +1,108 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    font-family: arial, sans-serif;
+    font-weight: 700;
+  
+}
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+.one,.two{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.one {
+    color: #2ca6a4;
+    text-align: center;
+    flex: 1.2;
+    
+
+}
+.icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;  
+    padding: 20px; 
+}
+.icons button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: white;
+    transition: 0.5s;
+    box-shadow: 0 2px 5px rgb(175, 170, 170);
+    
+}
+.icons button:hover {
+    background: #dbd9d9;
+}
+p {
+    color: rgb(74, 73, 73);
+    font-weight: 100;
+}
+.textarea {
+    gap: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+}
+.text {
+    border: none;
+    background-color: rgb(237, 234, 234);
+    color: black;
+    width: 40;
+    height: 45px;
+    padding: 8px;
+    font-size: 15px;
+}
+.pass {
+    padding: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.signin {
+    display: block;
+    border-radius: 30px;
+    background-color: #2ca6a4;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: auto;
+    border: none;
+    cursor: pointer;
+    font-weight: lighter;
+}
+.two{
+    background-color: #2ca6a4;
+    color: white;
+    text-align: center;
+    padding: 10;
+    flex: 0.7;
+    
+}
+
+.signup {
+    border: 2px solid white;
+    background-color: #2ca6a4;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 30px;
+    width: 200px;
+    font-weight: lighter;
+}
